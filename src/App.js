@@ -10,6 +10,7 @@ import AdminProducts from "./component/Admin/AdminProducts";
 import AdminEditProduct from "./component/Admin/AdminEditProduct";
 import AdminAddProduct from "./component/Admin/AdminAddProduct";
 import UserProfile from "./component/Users/UserProfile";
+import Cart from "./component/Cart";
 
 function App() {
   return (
@@ -28,7 +29,7 @@ function App() {
           />
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<Signup />} />
-
+          <Route path="/cart" element={<Cart />} />
           <Route path="/product/:id" element={<ShoesDetail />} />
           <Route path="/admin" element={<AdminDashboard />} />
           <Route path="/admin/products" element={<AdminProducts />} />

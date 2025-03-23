@@ -77,7 +77,7 @@ const Header = () => {
             Home
           </a>
           <div className="position-relative">
-            <a href="#">
+            <a href="/cart">
               <img
                 src="https://static.vecteezy.com/system/resources/previews/001/504/962/non_2x/shopping-cart-icon-free-vector.jpg"
                 alt="cart"
